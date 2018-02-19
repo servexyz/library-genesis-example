@@ -1,17 +1,23 @@
 # library-genesis-example
 
+> CLI implemenation
+
 ### Use
 
 ```
-yarn global add lib-genesis-cli
-yarn install
-libgen ./config.js
+npm run first
 ```
+
+> See [package.json](./package.json) for command details
+
+---
 
 ### Goals
 
 * Show how to use CLI
 * Illustrate shortcomings of current implementation
+
+---
 
 ### Related
 

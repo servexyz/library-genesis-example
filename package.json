@@ -2,6 +2,11 @@
   "name": "library-genesis-example",
   "version": "1.0.0",
   "license": "MIT",
+  "scripts": {
+    "first": "npm run cli && npm run start",
+    "cli": "npm install -g library-genesis-cli",
+    "start": "yarn install && libgen ./config.js"
+  },
   "devDependencies": {
     "multiline": "^1.0.2"
   }
